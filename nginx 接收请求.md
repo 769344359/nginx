@@ -1,4 +1,8 @@
 ```
+ngx_worker_process_cycle
+```
+
+```
 (gdb) bt
 #0  ngx_epoll_process_events (cycle=0x735480, timer=18446744073709551615, 
     flags=1) at src/event/modules/ngx_epoll_module.c:802
