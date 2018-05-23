@@ -67,7 +67,7 @@ ngx_start_worker_processes(ngx_cycle_t *cycle, ngx_int_t n, ngx_int_t type)
 其中核心函数是`ngx_spawn_process`
 
 下面来看 `ngx_spawn_process` 的实现
-```
+```c
 ngx_pid_t
 ngx_spawn_process(ngx_cycle_t *cycle, ngx_spawn_proc_pt proc, void *data,
     char *name, ngx_int_t respawn)
